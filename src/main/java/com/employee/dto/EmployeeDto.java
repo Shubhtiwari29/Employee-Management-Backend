@@ -9,10 +9,8 @@ public class EmployeeDto {
     private String firstName;
     private String lastName;
     private String email;
-
     
     public EmployeeDto() {}
-
     
     public EmployeeDto(Long id, String firstName, String lastName, String email) {
         this.id = id;
@@ -20,7 +18,6 @@ public class EmployeeDto {
         this.lastName = lastName;
         this.email = email;
     }
-
     
     public Long getId() {
         return id;
